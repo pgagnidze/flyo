@@ -58,38 +58,94 @@ pages:
             widgets:
               - type: hacker-news
               - type: lobsters
-              - subreddit: selfhosted
-                <<: *shared-properties
-              - subreddit: linux
-                <<: *shared-properties
-              - subreddit: commandline
-                <<: *shared-properties
+              # Tech & Programming
               - subreddit: aws
-                <<: *shared-properties
-              - subreddit: unixporn
                 <<: *shared-properties
               - subreddit: ClaudeAI
                 <<: *shared-properties
+              - subreddit: CLI
+                <<: *shared-properties
+              - subreddit: commandline
+                <<: *shared-properties
+              - subreddit: devops
+                <<: *shared-properties
+              - subreddit: Fedora
+                <<: *shared-properties
+              - subreddit: golang
+                <<: *shared-properties
+              - subreddit: grafana
+                <<: *shared-properties
+              - subreddit: javascript
+                <<: *shared-properties
+              - subreddit: linux
+                <<: *shared-properties
+              - subreddit: lua
+                <<: *shared-properties
+              - subreddit: neovim
+                <<: *shared-properties
+              - subreddit: networking
+                <<: *shared-properties
+              - subreddit: programming
+                <<: *shared-properties
+              - subreddit: selfhosted
+                <<: *shared-properties
+              - subreddit: unixporn
+                <<: *shared-properties
+              - subreddit: zen_browser
+                <<: *shared-properties
+              # Gaming & Roguelikes
               - subreddit: cavesofqud
                 <<: *shared-properties
-              - subreddit: Bitcoin
+              - subreddit: DoorsofTrithius
+                <<: *shared-properties
+              - subreddit: roguelikedev
+                <<: *shared-properties
+              - subreddit: roguelikes
+                <<: *shared-properties
+              # Finance
+              - subreddit: Bogleheads
+                <<: *shared-properties
+              # Privacy & Minimalism
+              - subreddit: digitalminimalism
+                <<: *shared-properties
+              - subreddit: PrivacyGuides
+                <<: *shared-properties
+              # Sports & Hobbies
+              - subreddit: armwrestling
+                <<: *shared-properties
+              - subreddit: PremierLeague
+                <<: *shared-properties
+              - subreddit: mazda
+                <<: *shared-properties
+              - subreddit: Watches
+                <<: *shared-properties
+              # Places & Travel
+              - subreddit: istanbul
+                <<: *shared-properties
+              - subreddit: Sakartvelo
+                <<: *shared-properties
+              - subreddit: Slovenia
                 <<: *shared-properties
               - subreddit: travel
                 <<: *shared-properties
-              - subreddit: space
+              # Aesthetic
+              - subreddit: CozyPlaces
+                <<: *shared-properties
+              - subreddit: LiminalSpace
+                <<: *shared-properties
+              - subreddit: TheNightFeeling
                 <<: *shared-properties
           - type: group
             widgets:
               - type: videos
                 title: Tech
                 channels:
-                  - UCoQ8B21RIncI9NWLr2d2Y_w # Nana Janashia
-                  - UCSOpcUkE-is7u7c4AkLgqTw # MrMobile
-                  - UCFtVwG0NFd6gT3TXfMCU7oA # Jose Briones
-                  - UCsBjURrPoezykLs9EqgamOA # Fireship
-                  - UCnIfca4LPFVn8-FjpPVc1ow # Fedora Project
+                  - UCd6MoB9NC6uYN2grvUNT-Zg # Amazon Web Services
                   - UCqh8w-GY6v0vgwIn_iWt87A # Andrew Marc David
-                  - UCFtVwG0NFd6gT3TXfMCU7oA # Jose Briones
+                  - UCsUalyRg43M8D60mtHe6YcA # CultRepo
+                  - UCYeiozh-4QwuC1sjgCmB92w # DevOps Toolbox
+                  - UCnIfca4LPFVn8-FjpPVc1ow # Fedora Project
+                  - UCUyeluBRhGPCW4rPe_UvBZQ # ThePrimeagen LIVE
 
               - type: videos
                 title: Education
@@ -98,25 +154,47 @@ pages:
                   - UCoxcjq-8xIDTYp3uz647V5A # Numberphile
                   - UCvBqzzvUBLCs8Y7Axb-jZew # Sixty Symbols
                   - UCRhV1rWIpm_pU19bBm_2RXw # Sean Carroll
-                  - UCj1VqrHhDte54oLgPG4xpuQ # Staff Made Here
 
               - type: videos
-                title: Gaming
+                title: Gaming & Roguelikes
                 channels:
                   - UCW7pWfl6hVvwz3K6b-Q8T0g # Rogue Rat
                   - UCK0wWfg2_bqWOQFFNWp58mw # Kitfox Games
                   - UCaifrB5IrvGNPJmPeVOcqBA # Kruggsmash
-                  - UCApLcBfbC-I38zMzgxsobKg # Big Simple
-                  - UC2TPQt5goAjgXE-GRF6WfnQ # Beautemps
-                  - UCPq2ETz4aAGo2Z-8JisDPIA # ESL Counter-Strike
+                  - UCP6Np_iMYhBQBAcYlDf97iw # DoodletmeGO
+
+              - type: videos
+                title: Sports
+                channels:
+                  - UC3Dw8OYsWmZqrM1qBBZUMhQ # East vs West Armwrestling
+                  - UC_gSotrFVZ_PiAxo3fTQVuQ # Magnus Midtbø
+                  - UCRoKzN3kelfU_hvfvT6XgNA # Setanta Sports Football
+
+              - type: videos
+                title: Travel & Culture
+                channels:
+                  - UCVnPz7mE-uPALKumi7wl9KA # Mick and Trudie
+                  - UCIiu3VznvR_JL4GLtTVHQgw # Noah Kane
+                  - UC19xLluI7dG093Gmw57BhHw # NFKRZ
+
+              - type: videos
+                title: Watches
+                channels:
+                  - UCD80T1s2Za4K682CQDGwEKQ # Wristwatch Revival
+                  - UCLGp7H4XuzA9TLJ0L4PUx8w # Teddy Baldassarre
+
+              - type: videos
+                title: Georgian
+                channels:
+                  - UC_qtnT3ovv9rv5ekPZBFTbQ # betsson sport
+                  - UCUk_oFoglDyX-Jd0579pvAg # Four Loop Pod
+                  - UCVW6Z4RvuELf3L7xn3AwZ9w # GeoSTQB
+                  - UC-Nkfn7KWsRm5vsF_uFY2gg # Giorgi Vardosanidze
 
               - type: videos
                 title: Other
                 channels:
-                  - UCD80T1s2Za4K682CQDGwEKQ # Wristwatch Revival
-                  - UCLGp7H4XuzA9TLJ0L4PUx8w # Teddy Baldassarre
-                  - UCYmdliVZaaxsqE6jiCzVnhA # Worn and Wound
-                  - UCGYYNGmyhZ_kwBF_lqqXdAQ # Tifo Football
+                  - UCm3-xqAh3Z-CwBniG1u_1vw # Ambient
                   - UCmEbe0XH51CI09gm_9Fcn8Q # Glass Reflection
 
       - size: small
